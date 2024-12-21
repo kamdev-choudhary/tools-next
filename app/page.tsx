@@ -45,11 +45,12 @@ export default function Home() {
       </div>
 
       <div className="mt-8">
-        <Snippet hideCopyButton hideSymbol variant="bordered">
+        <Snippet hideCopyButton hideSymbol>
           <span>
             Get started by editing <Code color="primary">app/page.tsx</Code>
           </span>
         </Snippet>
+        <Code>Hello, from kD</Code>
       </div>
     </section>
   );
